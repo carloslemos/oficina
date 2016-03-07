@@ -1,0 +1,17 @@
+{
+  "name": "servidor-abertura-exercicio",
+  "version": "1.0.0",
+  "description": "Servidor do 1º exercício da Oficina ESPM",
+  "main": "servidor.js",
+  "dependencies": {
+    "concat-stream": "^1.5.1"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1"
+  },
+  "scripts": {
+    "test": "console.log(\"teste\")"
+  },
+  "author": "Carlos Lemos",
+  "license": "MIT"
+}

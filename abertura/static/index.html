@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+
+	<title>só um teste</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- <link rel="stylesheet" href=""> -->
+
+	<script src="scripts/jquery.js"></script>
+</head>
+
+<body>
+	<h1>1, 2, 3 testando...</h1>
+	<script>
+		$.ajax({
+			type: "POST",
+			url: '/teste',
+			data: '{"teste":"'+Math.random()+'"}',
+			success: function(){
+				alert('postou');
+			},
+			dataType:'json'
+		});
+	</script>
+</body>
+</html>
