@@ -15,12 +15,15 @@
 <body>
 	<h1>1, 2, 3 testando...</h1>
 	<script>
+		var dados = {
+			senha:Math.random().toString(36).substring(2,8)
+		}
 		$.ajax({
-			type: "POST",
+			type: 'POST',
 			url: '/teste',
-			data: '{"teste":"'+Math.random()+'"}',
-			success: function(){
-				alert('postou');
+			data: JSON.stringify(dados),
+			success: function(data){
+				console.log('enviou', data)
 			},
 			dataType:'json'
 		});

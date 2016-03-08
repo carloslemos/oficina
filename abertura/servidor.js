@@ -37,14 +37,15 @@ var server = http.createServer(function (req, res) {
 			}
 		});
 	} else if(req.method == 'POST'){
-		// var str = ''
-		// req.on('data', function (chunk) {
-		// 	str += chunk
-		// })
-
+		console.log(parse.pathname)
 		req.pipe(concat(function(data){
 			var dados = JSON.parse(data.toString())
-			console.log(dados)
+			var ip = req.headers['x-forwarded-for'] || 
+							 req.connection.remoteAddress || 
+							 req.socket.remoteAddress ||
+							 req.connection.socket.remoteAddress;
+
+			console.log(dados, ip.split(':')[ip.split(':').length-1])
 
 			res.writeHead(200, { 'Content-Type': 'application/json' })
 			res.end(data.toString())
@@ -65,18 +66,14 @@ Object.keys(ifaces).forEach(function (ifname) {
 	var alias = 0;
 
 	ifaces[ifname].forEach(function (iface) {
-		if ('IPv4' !== iface.family || iface.internal !== false) {
-			// skip over internal (i.e. 127.0.0.1) and non-ipv4 addresses
+		if ('IPv4' !== iface.family || iface.internal !== false)
 			return;
-		}
 
-		if (alias >= 1) {
-			// this single interface has multiple ipv4 addresses
+		if (alias >= 1)
 			console.log(ifname + ':' + alias, iface.address+':'+porta);
-		} else {
-			// this interface has only one ipv4 adress
+		else
 			console.log(ifname, iface.address+':'+porta);
-		}
+		
 		++alias;
 	});
 });
