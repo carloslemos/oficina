@@ -13,20 +13,108 @@
 </head>
 
 <body>
-	<h1>1, 2, 3 testando...</h1>
+	<h1>Bem vindo a oficina Hackeando + Jornalismo</h1>
+
+	<form style="display:none;">
+		<input type="text" placeholder="insira seu nome" data-nome-input></input>
+		<button text="" data-nome>Enviar</button>
+	</form>
+
+	<form style="display:none;">
+		<input type="password" placeholder="insira sua senha" data-senha-input></input>
+		<button text="" data-senha>Enviar</button>
+	</form>
+	
+
 	<script>
-		var dados = {
-			senha:Math.random().toString(36).substring(2,8)
-		}
-		$.ajax({
-			type: 'POST',
-			url: '/teste',
-			data: JSON.stringify(dados),
-			success: function(data){
-				console.log('enviou', data)
-			},
-			dataType:'json'
-		});
+		window.oficina= window.oficina || {};
+		(function($){
+			oficina.abertura = function(hash){
+				var dados = {}, 
+
+				load = function(url) {
+					$('[data-nome]').click(enviaNome);
+					$('[data-senha]').click(enviaSenha);
+
+					$.ajax({
+						type: 'POST',
+						url: '/entrar',
+						data: JSON.stringify(dados),
+						dataType:'json',
+						success: function(data){
+							dados = data
+							carrega();
+						}
+					});
+				},
+
+				enviaNome = function(event){
+					event.preventDefault();
+					dados.nome = $('[data-nome-input]').val();
+
+					$.ajax({
+						type: 'POST',
+						url: '/usuario',
+						data: JSON.stringify(dados),
+						dataType:'json',
+						success: function(data){
+							dados.nome = data
+							$('[data-nome]').parent().hide();
+							$('[data-senha]').parent().fadeIn();
+						}
+					});
+				},
+
+				enviaSenha = function(event){
+					event.preventDefault();
+					dados.senha = $('[data-senha-input]').val()
+					$.ajax({
+						type: 'POST',
+						url: '/senha',
+						data: JSON.stringify(dados),
+						dataType:'json',
+						success: function(data){
+							if(data.loggado)
+								$('[data-senha]').parent().hide();
+							else
+								$('[data-senha-input]').attr('placeholder','senha incorreta').val('')
+						}
+					});
+				},
+
+				carrega = function(){
+					if(!dados.loggado && !dados.nome)
+						$('[data-nome]').parent().fadeIn();
+					else if(!dados.loggado)
+						$('[data-senha]').parent().fadeIn();
+				};
+
+				return { // todos os objetos aqui são públicos
+					// implementação do método de inicialização público
+					init: function(){
+						load();
+					}
+				};
+			};
+
+
+
+			oficina.minhaSenha = function(){
+				$.ajax({
+					type: 'POST',
+					url: '/mpw',
+					data: JSON.stringify(true),
+					dataType:'json',
+					success: function(data){
+						console.log('Anote sua senha: '+data.senha);
+					}
+				});
+				return true;
+			};
+
+			//Let the carnage begins!
+			(new oficina.abertura()).init();
+		}(jQuery));
 	</script>
 </body>
 </html>

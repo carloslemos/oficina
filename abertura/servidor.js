@@ -13,6 +13,8 @@ var tipo = {
 	'.css':	'text/css'
 }
 
+var usuarios = {}
+
 var porta = process.argv[2] || 8000
 var pasta = process.argv[3] || 'static'
 
@@ -37,23 +39,50 @@ var server = http.createServer(function (req, res) {
 			}
 		});
 	} else if(req.method == 'POST'){
-		console.log(parse.pathname)
+		// ao entrar na página
 		req.pipe(concat(function(data){
 			var dados = JSON.parse(data.toString())
-			var ip = req.headers['x-forwarded-for'] || 
-							 req.connection.remoteAddress || 
-							 req.socket.remoteAddress ||
-							 req.connection.socket.remoteAddress;
-
-			console.log(dados, ip.split(':')[ip.split(':').length-1])
-
-			res.writeHead(200, { 'Content-Type': 'application/json' })
-			res.end(data.toString())
+			ip = pegaIP(req)
+			
+			if (parse.pathname == '/entrar'){
+				if (!usuarios[ip]) usuarios[ip] = {
+					senha:Math.random().toString(36).substring(2,8),
+					nome:dados.nome,
+					loggado:false
+				}
+				res.writeHead(200, { 'Content-Type': 'application/json' })
+				res.end(JSON.stringify({loggado:usuarios[ip].loggado,nome:usuarios[ip].nome}))
+			} else if(parse.pathname == '/usuario'){
+				usuarios[ip].nome = dados.nome;
+				res.writeHead(200, { 'Content-Type': 'application/json' })
+				res.end(JSON.stringify({loggado:usuarios[ip].loggado,nome:usuarios[ip].nome}))
+			} else if(parse.pathname == '/senha') {
+				usuarios[ip].loggado = dados.senha == usuarios[ip].senha;
+				res.writeHead(200, { 'Content-Type': 'application/json' })
+				res.end(JSON.stringify({loggado:usuarios[ip].loggado,nome:usuarios[ip].nome}))
+			} else if(parse.pathname == '/mpw'){
+				res.writeHead(200, { 'Content-Type': 'application/json' })
+				res.end(JSON.stringify({senha:usuarios[ip].senha}))
+			} else {
+				res.writeHead(404, { 'Content-Type': 'text/plain' })
+				res.end('Arquivo não encontrado')
+				console.log('static'+parse.pathname)
+			}
 		}))
 	}
 
 	return
 })
+
+var pegaIP = function(req){
+	var ip = req.headers['x-forwarded-for'] || 
+					 req.connection.remoteAddress || 
+					 req.socket.remoteAddress ||
+					 req.connection.socket.remoteAddress;
+
+	ip = ip.split(':')[ip.split(':').length-1]
+	return ip
+}
 
 server.listen(porta)
 
