@@ -1,0 +1,48 @@
+body{
+	text-align: center;
+
+}
+
+h1{
+	font-family: 'Slabo 27px', serif;
+}
+
+form{
+	display: none;
+}
+
+input{
+	border: none;
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 10px;
+	width: 200px;
+}
+
+input:focus{
+	box-shadow: 0;
+	outline: none;
+}
+
+.botao{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding: 10px;
+	font-weight: bold;
+	background-color: #CCC;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.botao:hover{
+	background-color: #999;
+}
+
+input, .botao{
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+}

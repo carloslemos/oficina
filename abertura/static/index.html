@@ -3,26 +3,26 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>só um teste</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<title>Oficina do Charlão</title>
+	<meta name="description" content="So it begins">
+	<meta name="author" content="Carlos Lemos vulgo @carlos_tlemos no Twitter">
 
-	<!-- <link rel="stylesheet" href=""> -->
-
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='styles/style.css' rel='stylesheet' type='text/css'>
 	<script src="scripts/jquery.js"></script>
 </head>
 
 <body>
-	<h1>Bem vindo a oficina Hackeando + Jornalismo</h1>
+	<h1>Bem vindo a oficina do Charlão</h1>
 
-	<form style="display:none;">
-		<input type="text" placeholder="insira seu nome" data-nome-input></input>
-		<button text="" data-nome>Enviar</button>
+	<form>
+		<input type="text" placeholder="insira seu nome" data-input="nome"></input>
+		<div class="botao" data-botao="nome">Enviar</div>
 	</form>
 
-	<form style="display:none;">
-		<input type="password" placeholder="insira sua senha" data-senha-input></input>
-		<button text="" data-senha>Enviar</button>
+	<form>
+		<input type="password" placeholder="insira sua senha" data-input="senha"></input>
+		<div class="botao" data-botao="senha">Enviar</div>
 	</form>
 	
 
@@ -33,8 +33,15 @@
 				var dados = {}, 
 
 				load = function(url) {
-					$('[data-nome]').click(enviaNome);
-					$('[data-senha]').click(enviaSenha);
+					// cria ações no placeholder dos inputs
+					$('input').each(function(){
+						$(this)
+							.attr('onfocus','this.placeholder = ""')
+							.attr('onblur','this.placeholder = "'+this.placeholder+'"');
+					});
+
+					$('[data-botao="nome"]').click(enviaNome);
+					$('[data-botao="senha"]').click(enviaSenha);
 
 					$.ajax({
 						type: 'POST',
@@ -48,6 +55,7 @@
 					});
 				},
 
+				// Ação ao enviar o nome
 				enviaNome = function(event){
 					event.preventDefault();
 					dados.nome = $('[data-nome-input]').val();
@@ -65,6 +73,7 @@
 					});
 				},
 
+				// Ação ao buscar a senha
 				enviaSenha = function(event){
 					event.preventDefault();
 					dados.senha = $('[data-senha-input]').val()
@@ -98,7 +107,7 @@
 			};
 
 
-
+			// Acão de pedir a senha ao servidor
 			oficina.minhaSenha = function(){
 				$.ajax({
 					type: 'POST',
