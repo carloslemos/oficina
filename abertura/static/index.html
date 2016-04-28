@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<h1>Bem vindo a oficina do Charlão</h1>
+	<h1>Bem-vindo à oficina do Charlão</h1>
 
 	<form>
 		<input type="text" placeholder="insira seu nome" data-input="nome"></input>
@@ -24,106 +24,16 @@
 		<input type="password" placeholder="insira sua senha" data-input="senha"></input>
 		<div class="botao" data-botao="senha">Enviar</div>
 	</form>
+
+	<p id="aviso" data-aviso>
+		Caso não saiba sua senha, procure nessa página
+	</p>
+
+	<span data-minha-senha>
+		<!-- Você está no caminho certo, mas ainda não é aqui -->
+	</span>
 	
 
-	<script>
-		window.oficina= window.oficina || {};
-		(function($){
-			oficina.abertura = function(hash){
-				var dados = {}, 
-
-				load = function(url) {
-					// cria ações no placeholder dos inputs
-					$('input').each(function(){
-						$(this)
-							.attr('onfocus','this.placeholder = ""')
-							.attr('onblur','this.placeholder = "'+this.placeholder+'"');
-					});
-
-					$('[data-botao="nome"]').click(enviaNome);
-					$('[data-botao="senha"]').click(enviaSenha);
-
-					$.ajax({
-						type: 'POST',
-						url: '/entrar',
-						data: JSON.stringify(dados),
-						dataType:'json',
-						success: function(data){
-							dados = data
-							carrega();
-						}
-					});
-				},
-
-				// Ação ao enviar o nome
-				enviaNome = function(event){
-					event.preventDefault();
-					dados.nome = $('[data-nome-input]').val();
-
-					$.ajax({
-						type: 'POST',
-						url: '/usuario',
-						data: JSON.stringify(dados),
-						dataType:'json',
-						success: function(data){
-							dados.nome = data
-							$('[data-nome]').parent().hide();
-							$('[data-senha]').parent().fadeIn();
-						}
-					});
-				},
-
-				// Ação ao buscar a senha
-				enviaSenha = function(event){
-					event.preventDefault();
-					dados.senha = $('[data-senha-input]').val()
-					$.ajax({
-						type: 'POST',
-						url: '/senha',
-						data: JSON.stringify(dados),
-						dataType:'json',
-						success: function(data){
-							if(data.loggado)
-								$('[data-senha]').parent().hide();
-							else
-								$('[data-senha-input]').attr('placeholder','senha incorreta').val('')
-						}
-					});
-				},
-
-				carrega = function(){
-					if(!dados.loggado && !dados.nome)
-						$('[data-nome]').parent().fadeIn();
-					else if(!dados.loggado)
-						$('[data-senha]').parent().fadeIn();
-				};
-
-				return { // todos os objetos aqui são públicos
-					// implementação do método de inicialização público
-					init: function(){
-						load();
-					}
-				};
-			};
-
-
-			// Acão de pedir a senha ao servidor
-			oficina.minhaSenha = function(){
-				$.ajax({
-					type: 'POST',
-					url: '/mpw',
-					data: JSON.stringify(true),
-					dataType:'json',
-					success: function(data){
-						console.log('Anote sua senha: '+data.senha);
-					}
-				});
-				return true;
-			};
-
-			//Let the carnage begins!
-			(new oficina.abertura()).init();
-		}(jQuery));
-	</script>
+	<script src="scripts/main.js"></script>
 </body>
 </html>

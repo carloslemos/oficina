@@ -60,9 +60,11 @@ var server = http.createServer(function (req, res) {
 				usuarios[ip].loggado = dados.senha == usuarios[ip].senha;
 				res.writeHead(200, { 'Content-Type': 'application/json' })
 				res.end(JSON.stringify({loggado:usuarios[ip].loggado,nome:usuarios[ip].nome}))
+				if(usuarios[ip].loggado) console.log('sucesso: '+usuarios[ip].nome)
 			} else if(parse.pathname == '/mpw'){
 				res.writeHead(200, { 'Content-Type': 'application/json' })
 				res.end(JSON.stringify({senha:usuarios[ip].senha}))
+				console.log(usuarios[ip].nome + ' acaba de solicitar a senha')
 			} else {
 				res.writeHead(404, { 'Content-Type': 'text/plain' })
 				res.end('Arquivo não encontrado')
