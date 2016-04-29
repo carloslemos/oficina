@@ -1,7 +1,7 @@
-#O que é HTML
+#O que é HTML?
 É uma abreviação para HyperText Markup Language. É o formato padrão de linguagem de marcação para a criação de páginas da web. Forma um dos pilares da tecnologia para web junto ao __CSS__ e __JavaScript__
 
-### O que é uma linguagem de marcação
+### Então que é uma linguagem de marcação?
 É um sistema de anotação de documentos de uma maneira que seja sintaticamente distinto do texto. Esse arquivo aqui que estou apresentando para vocês é um outro formato de linguagem de marcação chamado de Markdown. Não é importante saber isso, mas sabem como é...
 
 ### Como funciona?
