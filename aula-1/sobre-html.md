@@ -11,3 +11,7 @@ Navegadores de internet e podem gerar [renderizar] páginas visuais ou mesmo áu
 São os blocos de construção das páginas. Permitem criação de documentos estruturados ao indicar estruturas semânticas para o texto como cabeçalhos, paragrafos, listas, links, citações, etc. Isso é feito por meio de _tags_ escritas entre os símbolos __<__ e __>__. Algumas tags como `<img>` ou `<input>` inserem conteúdo diretamente a página e outras como `<p>...</p>` fornecem informação de como este documento deve se comportar.
 
 #Construindo o seu 1º HTML
+*`<!DOCTYPE html>`  
+Declaração que define que esse documento é um HTML. Se tem isso, isso aqui é um HTML5
+*`<head>...<\head>`  
+Fornece informação sobre o documento que não aparece na página. Deem uma conferida na página do servidor
