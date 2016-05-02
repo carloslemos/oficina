@@ -20,15 +20,15 @@ Fornece informação sobre o documento que não aparece na página. Deem uma con
 * `<body>...<\body>`  
 O corpo da página. O conteúdo aqui inserido será visualizado no navegador
 
-Além disso, existem outros elementos comuns a boa parte dos htmls como __title, h1, img, style__.
+Existem outros elementos comuns em boa parte dos htmls como __title, h1, img, p, a__, etc. E todo bloco pode possuir atributos específicos como __class, id, src, href__. Porque e como usamos cada um veremos logo a seguir.
 
 #Construindo o seu 1º HTML
 
-
-###A tarefa
-Criar uma página de HTML que contenha:  
+Criar uma página que contenha:
 
 1. uma foto sua na internet
 2. seu nome como título
-3. um pequeno parágrafo sobre você
-4. um link para sua conta de twitter, linkedin ou snapchat
+3. um pequeno parágrafo sobre você. [Pode ser texto de marcação](http://www.lipsum.com/feed/html)
+4. um link para sua conta pessoal de twitter, linkedin ou snapchat
+
+Não se preocupe com a estilização dos elementos. Nós veremos isso a seguir.
