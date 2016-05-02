@@ -70,8 +70,10 @@ window.oficina= window.oficina || {};
 							$('[data-aviso]').hide();
 							$('h1')
 								.hide()
-								.html('Parabéns, '+data.nome.toUpperCase()+'. <br>Log efetuado com sucesso')
+								.html('Parabéns, '+data.nome.toUpperCase()+'. <br>Log efetuado com sucesso.')
 								.fadeIn();
+
+							$('body').append('<span>Se quiser saber um pouco mais sobre essa oficina <a href="https://github.com/carloslemos/oficina">clique aqui</span>');
 
 						} else{
 							$('[data-input="senha"]')
@@ -90,11 +92,14 @@ window.oficina= window.oficina || {};
 					$('[data-botao="nome"]').parent().fadeIn();
 				else if(!dados.loggado)
 					$('[data-botao="senha"]').parent().fadeIn();
-				else
+				else {
 					$('h1')
 						.hide()
-						.html('Você já loggou, '+dados.nome.toUpperCase()+'. <br>Em instantes continuaremos')
+						.html('Você já loggou, '+dados.nome.toUpperCase()+'. <br>Em instantes continuaremos.')
 						.fadeIn();
+
+					$('body').append('<span>Se quiser saber um pouco mais sobre essa oficina <a href="https://github.com/carloslemos/oficina">clique aqui</span>');
+				}
 			};
 
 			return { // todos os objetos aqui são públicos
