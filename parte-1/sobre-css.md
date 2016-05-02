@@ -15,7 +15,7 @@ Os __seletores__ podem ser aplicados a:
 * Pseudo-classes para acessar uma informação que não está contida em um documento, utilizando `:` após o seletor. Um bom exemplo é uma ação de passar o mouse por cima de um elemento como o `h1`, que seria anotado como `h1:hover`
 * Atributos personalizados do elementos, anotado entre colchetes. Um exemplo seria `[href]` para selecionar todos elementos com um hyperlink na página
 
-Os __blocos de declaração__ são declarado entre chaves `{...}`. Cada declaração consiste em uma _propriedade_, dois pontos `:` e um _valor_. Se houverem múltiplas declarações, estas devem ser separadas por um ponto-e-vírgula `;`
+Os __blocos de declaração__ são declarado entre chaves `{...}`. Cada declaração consiste em uma _propriedade_, dois pontos `:` e um _valor_. Em caso de múltiplas declarações, estas devem ser separadas por um ponto-e-vírgula `;`
 
 #Construindo sua 1ª folha de estilos
 Utilizando o HTML do exercício anterior você deve:
