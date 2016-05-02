@@ -32,3 +32,5 @@ Criar uma página que contenha:
 4. um link para sua conta pessoal de twitter, linkedin ou snapchat
 
 Não se preocupe com a estilização dos elementos. Nós veremos isso a seguir.
+
+_Uma parte das definições foi retirada da [Wikipedia](https://en.wikipedia.org/wiki/HTML) sob [Creative Commons Atribuição CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)_
