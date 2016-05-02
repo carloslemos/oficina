@@ -27,3 +27,5 @@ Utilizando o HTML do exercício anterior você deve:
 5. Alterar a cor de fundo de todo o documento
 
 A parte de hoje fica por aqui. Até 4ª!
+
+_Uma parte das definições foi retirada da [Wikipedia](https://en.wikipedia.org/wiki/CSS) sob [Creative Commons Atribuição CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)_
