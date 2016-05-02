@@ -4,7 +4,7 @@ window.oficina= window.oficina || {};
 			var dados = {}, 
 
 			load = function(url) {
-				// cria ações no placeholder dos inputs
+				// cria ações no placeholder do input
 				$('input')
 					.keypress(function(event){
 						// anula ação da tecla enter no input
@@ -37,7 +37,7 @@ window.oficina= window.oficina || {};
 				});
 			},
 
-			// Ação ao enviar o nome
+			// Ação ao enviar o nome para o servidor
 			enviaNome = function(event){
 				event.preventDefault();
 				dados.nome = $('[data-input="nome"]').val();
@@ -55,7 +55,7 @@ window.oficina= window.oficina || {};
 					});
 			},
 
-			// Ação ao buscar a senha
+			// Ação ao enviar a senha para o servidor
 			enviaSenha = function(event){
 				event.preventDefault();
 				dados.senha = $('[data-input="senha"]').val()
@@ -87,6 +87,7 @@ window.oficina= window.oficina || {};
 				});
 			},
 
+			// Função de entrada na página. Verifica se o usuário já inseriu a senha correta
 			carrega = function(){
 				if(!dados.loggado && !dados.nome)
 					$('[data-botao="nome"]').parent().fadeIn();
