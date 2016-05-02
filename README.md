@@ -1,13 +1,15 @@
 #Oficina de Jornalismo & Programação
-Apesar de acreditar que [escrever bem ainda é uma boa tecnologia](https://www.washingtonpost.com/news/achenblog/wp/2015/10/29/good-writing-is-good-technology/) existe um mundo aí de possibilidades no processo de contar histórias e você não precisa ser o próximo Linus Torvalds para experimentar e brincar um pouco.
-
-Essa oficina visa fornecer ferramentas fundamentais para que você crie protótipos de histórias interativas. 
+Apesar de acreditar que [escrever bem ainda é uma boa tecnologia](https://www.washingtonpost.com/news/achenblog/wp/2015/10/29/good-writing-is-good-technology/), existe um mundo aí de possibilidades no processo de contar histórias e você não precisa ser o próximo Linus Torvalds para experimentar e brincar um pouco.
 
 ###Isso aqui é legal...
-... mas será que dá para pensar num lance assim sem uma baita™
+... mas será que dá para planejar um lance como esses aqui sem uma baita™ equipe?
 
 * O Globo [Você consegue escalar um time melhor que o Dream Team?](http://infograficos.oglobo.globo.com/rio-2016/voce-consegue-escalar-um-time-melhor-que-o-dream-team.html)
 * Guardian: [The dark side of Guardian comments](https://www.theguardian.com/technology/2016/apr/12/the-dark-side-of-guardian-comments)
 * Nexo: [Quem falou isso: Hegel ou Engels? Um quiz filosófico](https://www.nexojornal.com.br/interativo/2016/03/11/Quem-falou-isso-Hegel-ou-Engels-Um-quiz-filos%C3%B3fico)
+
+Bem, __eu__ acredito que sim. Na verdade, boa parte do trabalho de programar é seguir uma ideia e abordar os mínimos detalhes do processo. O que não se sabe, se descobre no processo. Não é por acaso que o nome da profissão do construtor de páginas web é webdesigner. Design e desenho são palavras com a mesma raíz da palavra desígnio, que de acordo com Michaelis quer dizer _1 Plano, projeto. 2 Intenção, propósito. 3 Destino_.
+  
+Essa oficina visa fornecer ferramentas fundamentais para que você crie protótipos de histórias interativas. Talvez fosse mais difícil programar antes do Google, mas hoje é mais fácil. Vai por mim.
 
 __baita™__ é uma marca registrada pelo [Craque Neto 10](https://twitter.com/10neto)!
