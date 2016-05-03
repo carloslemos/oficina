@@ -109,11 +109,11 @@ Instruções condicionais são usadas para alterar o controle de fluxo de um pro
 
 Uma instrução condicional é mais ou menos assim:  
 
- `if (n > 1) {`  
- `  console.log('the variable n is greater than 1.');`  
- `} else {`  
- `  console.log('the variable n is less than or equal to 1.');`  
- `}`  
+ ```if (n > 1) {
+ 	console.log('a variável n é maior que 1.');  
+ } else { 
+ 	console.log('a variável n é menor ou igual a 1.');  
+ }```  
 
  O par de chaves no Javascript sempre representa uma sequência de declarações que compõe uma declaração composta. Veremos seu aparecimento em diferentes declarações do JavaScript.  
 
