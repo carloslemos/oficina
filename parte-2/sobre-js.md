@@ -4,6 +4,9 @@ O nome desse arquivo pode ser __aula.js__, ou qualquer outro do seu gosto. Nos e
 Dito isso vamos chamá-lo no nosso html com a seguinte tag:
 `<script src="aula.js"></script>`
 
-Como primeiro exercício, vamos chamar um _Olá mundo_ na linha de console com a seguinte declaração
+###Exercício 1
+Para começar vamos chamar um _Olá mundo_ na linha de console com a seguinte declaração
 
-`console.log("Olá mundo")`
+`console.log("Olá mundo")`  
+
+Ao abrir o arquivo em seu navegador, no console de comandos a mensagem __"Olá mundo"__ deve aparecer.
