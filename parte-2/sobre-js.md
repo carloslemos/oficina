@@ -22,7 +22,8 @@ A variável acima foi declarada, mas ainda não foi definida (ou seja, ainda nã
 
 `var exemplo = 'algum valor';`
 
-###observação
-Um variável é declarada quando usamos __var__, e o __=__ é usado para definir o valor pelo qual a variável vai fazer referência.  
+Uma variável é declarada quando usamos __var__, e o __=__ é usado para definir o valor pelo qual a variável vai fazer referência. Coloquialmente dizemos que _criamos uma variável com um valor_.
 
-Coloquialmente dizemos que _criamos uma variável com um valor_.
+###Desafio
+Faça a variável `exemplo` ter o valor igual á `'alguma string'`.  
+Então use o `console.log()` para imprimir a variável example no console.
