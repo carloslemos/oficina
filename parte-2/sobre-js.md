@@ -26,4 +26,20 @@ Uma variável é declarada quando usamos __var__, e o __=__ é usado para defini
 
 ###Desafio
 Faça a variável `exemplo` ter o valor igual á `'alguma string'`.  
-Então use o `console.log()` para imprimir a variável example no console.
+Então use o `console.log()` para imprimir a variável example no console do navegador.
+
+##Exercício 3 - String
+Uma __string__ é uma sequência de caracteres e é declarado por qualquer valor cercado de aspas.
+Podem ser usadas as aspas simples ou aspas duplas:  
+
+`'isto é uma string'`  
+`"isto também é uma string"`  
+
+Tente ser consistente. Neste workshop usaremos apenas aspas simples.  
+
+## Desafio:
+No arquivo crie uma variável chamada __algumaString__ da seguinte forma:  
+
+`var algumaString = 'isto é uma string';`  
+
+Então use o `console.log()` para imprimir a variável example no console do navegador.
