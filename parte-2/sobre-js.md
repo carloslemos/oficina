@@ -75,3 +75,30 @@ Defina uma variável chamada pizza que referencia esta _String_: `'pizza é bom'
 Use o método `.replace()` para modificar o `bom` para `melhor coisa do mundo`.  
 
 Então use o `console.log()` para imprimir o resultado do método `.replace()` no console do navegador.
+
+##Exercício 6 - Number
+O números podem ser inteiros como `2`, `14`, ou `4353`, ou podem ser decimais como `3.14`, `1.5`, ou `100.7893423` sempre anotados com o caractere de __ponto__ e nunca de vírgula. 
+
+##Desafio:  
+No arquivo defina uma variável chamada __exemplo__ que referencia o valor `123456789`.  
+
+Então use o `console.log()` para imprimir o resultado da variável no console do navegador.
+
+##Exercício 7 - Arredondando números
+   
+Podemos fazer operações simples de matemática usando operadores como `+` (soma), `-` (subtração),  `*` (multiplicação), `/` (divisão), e `%` (resto de uma divisão).  
+   
+Para cálculos complexos, usamos o objeto `Math`.  
+
+Para arredondar uma fração para seu valor inteiro mais próximo utilizamos o objeto `Math` em conjunto do método `round` separados por ponto e seguidos por parêntesis. Assim como o console.log o valor a ser inserido no método é colocado dentro dos parêntesis. Exemplo:  
+`Math.round(1.6);`  
+   
+Para arredondar para baixo utilizamos o método `floor`:
+`Math.floor(1.6);`  
+
+Para arredondar para cima utilizamos o método `ceil`:
+`Math.ceil(1.6);`  
+
+## Desafio:  
+Use o `console.log()` para imprimir uma variável decimal, seu valor arredondado para seu número mais próximo, para cima e para baixo. Você pode usar 4 `console.log()` diferentes ou declarar todos dentro de 1 só `console.log` com os diferentes valores separados por vírgula. Exemplo:
+`console.log(valor1, valor2, valor3, valor4);`
