@@ -132,3 +132,36 @@ No arquivo criado, declare uma variável chamada `fruta`.
 Faça a variável `fruta` referenciar o valor `laranja` ou qualquer outro nome de fruta com o tipo _String_.  
 
 Depois use o `console.log()` para imprimir `'O nome da fruta é tem 6 ou mais caracteres'` se o tamanho do valor da variável `fruta` for maior do que cinco. Caso contrário, imprima `'O nome da fruta tem menos de 6 caracteres'` no seu navegador.
+
+##Exercício 9 - fazendo Loop com For
+
+_Loops_ são declarações compostas que são especificadas uma única vez mas que devem ser executadas diversas vezes em sucessão. O código dentro de um _Loop_ será obedecido um número específico de vezes, ou uma vez para item de uma coleção, ou até que uma condição seja alcançada, ou indefinidas vezes.
+
+_Loops_ realizado com a declaração `for` acontecem em um número controlado de vezes e são declarados dessa forma:  
+
+```
+for (var i = 0; i < 10; i++) {  
+  // imprimir os números de 0 até 9  
+  console.log(i)  
+}
+```
+   
+A variável `i` é usada para rastrear a quantidade de vezes em que o _Loop_ foi executado. A declaração `var i=0` marca que o valor inicial da variável i se inicia no valor 0
+
+A expressão `i < 10;` indica o limite do _Loop_. O _Loop_ continuará se o valor da variável i for menor que 10.  
+
+A expressão `i++` incrementa o valor da variável i a cada iteração [repetição do código]. É importante notar que o valor de `i` é diferente a cada repetição
+
+## Desafio:  
+No arquivo *.js que está trabalhando defina uma variável chamada `total` e inicialize ela com o valor 1.  
+
+Defina uma segunda variável chamada `limite` e inicialize ela com o valor 10.  
+
+Crie um _Loop_ for com a variável `i` iniciando do 0 aumentando por um 1 em cada iteração. O _Loop_ deverá correr enquanto o valor de `i` for menor que o valor de `limite`.  
+
+Á cada repetição, adicione o número do `i` à variável `total`. Para fazer isto, você pode usar a seguinte expressão:  
+```
+total += i;  
+```
+
+Após o _Loop_, use o `console.log()` para imprimir a variável `total` ao console do navegador.
