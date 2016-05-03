@@ -54,7 +54,4 @@ Então use o `console.log()` para imprimir a variável example no console do nav
 Tenha certeza de que existe um ponto entre a sua variável que contém uma _String_ e `length`. O código acima irá retornar um __Number__ (valor numérico) com o total de caracteres na _String_.  
 
 ## Desafio:  
-
-Use o console.log para imprimir o length (tamanho)  da string no terminal.  
-
 Então use o `console.log()` para imprimir o tamanho da _String_ criada no __Exercício 3__ no console do navegador.
