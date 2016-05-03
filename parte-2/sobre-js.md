@@ -1,12 +1,17 @@
 Para começar vamos criar um arquivo __.js__. Para efeito de organização iremos deixar esse arquivo na mesma pasta do __html__ da parte anterior. O nome desse arquivo pode ser __aula.js__, ou qualquer outro do seu gosto. Nos exemplos a seguir sempre irei me referir a este arquivo como __aula.js__.
 
 Dito isso vamos chamá-lo no nosso html com a seguinte tag:
-`<script src="aula.js"></script>`
+
+```html
+<script src="aula.js"></script>
+```
 
 ##Exercício 1 - Olá mundo
 Para começar vamos chamar um _Olá mundo_ na linha de console com a seguinte declaração
 
-`console.log("Olá mundo")`  
+```javascript
+console.log("Olá mundo")
+```  
 
 Ao abrir o arquivo em seu navegador, no console de comandos a mensagem __"Olá mundo"__ deve aparecer.
 
@@ -16,11 +21,15 @@ Variáveis de JavaScript são declaradas usando a palavra `var` seguida do nome 
 
 Aqui está um exemplo:  
 
-`var exemplo;`
+```javascript
+var exemplo;
+```
 
 A variável acima foi declarada, mas ainda não foi definida (ou seja, ainda não faz referência á um valor específico). Aqui está um exemplo de como definir uma variável, fazendo ela referenciar um valor específico:  
 
-`var exemplo = 'algum valor';`
+```javascript
+var exemplo = 'algum valor';
+```
 
 Uma variável é declarada quando usamos __var__, e o __=__ é usado para definir o valor pelo qual a variável vai fazer referência. Coloquialmente dizemos que _criamos uma variável com um valor_.
 
@@ -32,15 +41,19 @@ Então use o `console.log()` para imprimir a variável example no console do nav
 Uma _String_ é uma sequência de caracteres e é declarado por qualquer valor cercado de aspas.
 Podem ser usadas as aspas simples ou aspas duplas:  
 
-`'isto é uma string'`  
-`"isto também é uma string"`  
+```javascript
+'isto é uma string'  
+"isto também é uma string" 
+``` 
 
 Tente ser consistente. Nesta oficina usaremos apenas aspas simples.  
 
 ## Desafio:
 No arquivo crie uma variável chamada __algumaString__ da seguinte forma:  
 
-`var algumaString = 'isto é uma string';`  
+```javascript
+var algumaString = 'isto é uma string';
+```  
 
 Então use o `console.log()` para imprimir a variável example no console do navegador.
 
@@ -48,8 +61,10 @@ Então use o `console.log()` para imprimir a variável example no console do nav
    
 É possível que você precise saber quantos caracteres estão em uma _String_. Para isso você usará a propriedade `.length` da _String_. Um exemplo:  
 
-`var exemplo = 'String de exemplo';`  
-`exemplo.length;`  
+```javascript
+var exemplo = 'String de exemplo';  
+exemplo.length;
+```  
 
 Tenha certeza de que existe um ponto entre a sua variável que contém uma _String_ e `length`. O código acima irá retornar um _Number_ (valor numérico) com o total de caracteres na _String_.  
 
@@ -63,9 +78,11 @@ As _Strings_ tem funcionalidades que te permitem inspecionar e manipular seus co
 
 Um exemplo que usa o método `.replace()`:  
 
-`var exemplo = 'este exemplo existe';`  
-`exemplo = exemplo.replace('existe', 'é incrível');`  
-`console.log(exemplo);`  
+```javascript
+var exemplo = 'este exemplo existe';`  
+exemplo = exemplo.replace('existe', 'é incrível');  
+console.log(exemplo);
+```  
 
 Perceba que para mudar o valor da _String_ da variável exemplo, nós precisamos usar o sinal __=__ novamente, desta vez com o método `exemplo.replace()` no lado direito dele.  
 
@@ -91,13 +108,20 @@ Podemos fazer operações simples de matemática usando operadores como `+` (som
 Para cálculos complexos, usamos o objeto `Math`.  
 
 Para arredondar uma fração para seu valor inteiro mais próximo utilizamos o objeto `Math` em conjunto do método `round` separados por ponto e seguidos por parêntesis. Assim como o console.log o valor a ser inserido no método é colocado dentro dos parêntesis. Exemplo:  
-`Math.round(1.6);`  
+
+```javascript
+Math.round(1.6);
+```  
    
 Para arredondar para baixo utilizamos o método `floor`:
-`Math.floor(1.6);`  
+```javascript
+Math.floor(1.6);
+```  
 
 Para arredondar para cima utilizamos o método `ceil`:
-`Math.ceil(1.6);`  
+```javascript
+Math.ceil(1.6);
+```  
 
 ## Desafio:  
 Use o `console.log()` para imprimir uma variável decimal, seu valor arredondado para seu número mais próximo, para cima e para baixo. Você pode usar 4 `console.log()` diferentes ou declarar todos dentro de 1 só `console.log` com os diferentes valores separados por vírgula. Exemplo:
@@ -109,15 +133,15 @@ Instruções condicionais são usadas para alterar o controle de fluxo de um pro
 
 Uma instrução condicional é mais ou menos assim:  
 
- ```
- if (n > 1) {
- 	console.log('a variável n é maior que 1.');  
- } else { 
- 	console.log('a variável n é menor ou igual a 1.');  
- }
- ```  
+```javascript
+if (n > 1) {
+	console.log('a variável n é maior que 1.');  
+} else { 
+	console.log('a variável n é menor ou igual a 1.');  
+}
+```  
 
- O par de chaves no Javascript sempre representa uma sequência de declarações que compõe uma declaração composta. Veremos seu aparecimento em diferentes declarações do JavaScript.  
+O par de chaves no Javascript sempre representa uma sequência de declarações que compõe uma declaração composta. Veremos seu aparecimento em diferentes declarações do JavaScript.  
 
 Dentro dos parênteses você deve informar uma instrução de lógica, com a idéia de que o resultado seja true ou false.  
 
@@ -139,7 +163,7 @@ _Loops_ são declarações compostas que são especificadas uma única vez mas q
 
 _Loops_ realizado com a declaração `for` acontecem em um número controlado de vezes e são declarados dessa forma:  
 
-```
+```javascript
 for (var i = 0; i < 10; i++) {  
   // imprimir os números de 0 até 9  
   console.log(i)  
@@ -160,7 +184,7 @@ Defina uma segunda variável chamada `limite` e inicialize ela com o valor 10.
 Crie um _Loop_ for com a variável `i` iniciando do 0 aumentando por um 1 em cada iteração. O _Loop_ deverá correr enquanto o valor de `i` for menor que o valor de `limite`.  
 
 Á cada repetição, adicione o número do `i` à variável `total`. Para fazer isto, você pode usar a seguinte expressão:  
-```
+```javascript
 total += i;  
 ```
 
@@ -170,7 +194,9 @@ Após o _Loop_, use o `console.log()` para imprimir a variável `total` no conso
    
 Uma _Array_ é uma coleção de elementos (valores ou variáveis). Aqui está um exemplo:  
 
-`var pets = ['gato', 'cachorro', 'rato'];`  
+```javascript
+var pets = ['gato', 'cachorro', 'rato'];
+```  
 
 Cada um dos elementos é identificado por um índice ou uma chave.
 
@@ -184,7 +210,7 @@ Use o `console.log()` para imprimir a _Array_ `frutas` no console do navegador.
 
 Existem muitas formas de manipular _Arrays_. Uma tarefa comum é filtrar uma _Array_ para que ela contenha somente alguns valores. Para isso podemos usar o método `.filter()`. Um exemplo:  
 
-```
+```javascript
 var pets = ['gato', 'cão', 'elefante'];  
 
 var filtrada = pets.filter(function (pet) {  
@@ -197,17 +223,48 @@ A variável `filtrada` irá conter apenas `'gato'` e `'cão'`.
 ###Desafio:  
 Neste arquivo, defina uma variável chamada `numeros` que referencia esta _Array_:  
 
-`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];`  
+```javascript
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```  
 
 Como acima, defina uma variavel chamada `filtrada` com referência ao  
 resultado de `numeros.filter()`.  
 
 A função que você passa para o método .filter() será igual essa:  
 
-```
+```javascript
 function numerosPares (numero) {  
 	return number % 2 === 0;  
 }
 ```
 
 Use o `console.log()` para imprimir a _Array_ `filtrada`
+
+##Exercício 12 - Acessando valores de Arrays  
+
+Podemos acessar elementos de uma _Array_ através de um número que representa sua posição, conhecido como índice. O valor do índice inicia com 0 e vai até o valor que representa o tamanho do _Array_ menos 1.  
+
+Aqui está um exemplo:  
+
+```javascript
+var pets = ['gato', 'cão', 'rato'];  
+console.log(pets[0]);  
+```
+
+O código acima imprime o primeiro elemento do _Array_ pets - uma _String_ `'gato'`.  
+
+Os elementos do _Array_ devem ser acessados através do uso do valor do índice entre colchetes `[...]`. Utilizar ponto para acessar o elemento não é válido.  
+
+Uso válido:  
+
+```javascript
+console.log(pets[0]);`  
+```
+
+Uso __invalido__:  
+```javascript
+console.log(pets.1);
+```  
+
+###Desafio:  
+Use o console.log() para imprimir o segundo valor do _Array_ `frutas`
