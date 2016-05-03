@@ -164,4 +164,18 @@ Crie um _Loop_ for com a variável `i` iniciando do 0 aumentando por um 1 em cad
 total += i;  
 ```
 
-Após o _Loop_, use o `console.log()` para imprimir a variável `total` ao console do navegador.
+Após o _Loop_, use o `console.log()` para imprimir a variável `total` no console do navegador.
+
+##Exercício 10 - Arrays  
+   
+Uma _Array_ é uma coleção de elementos (valores ou variáveis). Aqui está um exemplo:  
+
+`var pets = ['gato', 'cachorro', 'rato'];`  
+
+Cada um dos elementos é identificado por um índice ou uma chave.
+
+### Desafio:  
+No arquivo criado defina uma variável chamada `frutas` que referencia  
+um _Array_ com três Strings contendo nomes de frutas.  
+
+Use o `console.log()` para imprimir a _Array_ `frutas` no console do navegador.
