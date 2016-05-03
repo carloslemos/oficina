@@ -179,3 +179,35 @@ No arquivo criado defina uma variável chamada `frutas` que referencia
 um _Array_ com três Strings contendo nomes de frutas.  
 
 Use o `console.log()` para imprimir a _Array_ `frutas` no console do navegador.
+
+##Exercício 11 - Filtrando Arrays  
+
+Existem muitas formas de manipular _Arrays_. Uma tarefa comum é filtrar uma _Array_ para que ela contenha somente alguns valores. Para isso podemos usar o método `.filter()`. Um exemplo:  
+
+```
+var pets = ['gato', 'cão', 'elefante'];  
+
+var filtrada = pets.filter(function (pet) {  
+	return (pet !== 'elefante');  
+});
+```  
+
+A variável `filtrada` irá conter apenas `'gato'` e `'cão'`.  
+
+###Desafio:  
+Neste arquivo, defina uma variável chamada `numeros` que referencia esta _Array_:  
+
+`[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];`  
+
+Como acima, defina uma variavel chamada `filtrada` com referência ao  
+resultado de `numeros.filter()`.  
+
+A função que você passa para o método .filter() será igual essa:  
+
+```
+function numerosPares (numero) {  
+	return number % 2 === 0;  
+}
+```
+
+Use o `console.log()` para imprimir a _Array_ `filtrada`
