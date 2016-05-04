@@ -254,18 +254,17 @@ O código acima imprime o primeiro elemento do _Array_ pets - uma _String_ `'gat
 Os elementos do _Array_ devem ser acessados através do uso do valor do índice entre colchetes `[...]`. Utilizar ponto para acessar o elemento não é válido.  
 
 Uso válido:  
-
 ```javascript
 console.log(pets[0]);`  
 ```
 
-Uso __invalido__:  
+Uso __inválido__:  
 ```javascript
 console.log(pets.1);
-```  
+```    
 
 ###Desafio:  
-Use o console.log() para imprimir o segundo valor do _Array_ `frutas`
+Use o `console.log()` para imprimir o segundo valor do _Array_ `frutas`
 
 ##Exercício 13 - Varrendo Arrays com Loop
 
@@ -290,4 +289,4 @@ Você usará uma instrução como esta dentro do loop:
 pets[i] = pets[i] + 's';  
 ```
 
-Depois do loop, use o console.log() para imprimir a _Array_ 
+Depois do loop, use o `console.log()` para imprimir a _Array_ 
