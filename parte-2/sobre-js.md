@@ -355,3 +355,37 @@ var quitanda = {
 ```
 
 Use o `console.log()` para imprimir o objeto `quitanda` no terminal.
+
+##Exercício 16 - Funções
+Uma _Função_ é um bloco com uma lista de parâmetros (que podem ser vazios) a qual normalmente se dá um nome. Uma função pode utilizar variáveis locais. Se você não criar uma declaração `return` ao final de uma função o valor `undefined` será retornado ao término da função (e isso não é um problema). Um exemplo:
+
+```javascript
+function exemplo(x) {  
+  return x * 2;  
+}
+
+console.log(exemplo(5));
+```
+
+###Desafio:
+
+No exemplo acima a função espera receber argumento/parâmetro de entrada _Number_ que será alocado em uma variável local `x` e que será multiplicado por 2 no valor de retorno/saída da função. 
+
+O código acima vai imprimir no console a _String_ `'mozzarella'`. Como alternativa você pode utilizar ponto para obter o mesmo resultado:  
+```javascript
+console.log(pizza['sabor']);
+console.log(pizza.sabor);
+```
+
+Ambas as linhas retornarão a _String_ `'mozzarella'`.
+
+###Desafio:  
+Defina uma função chamada `compra` que recebe um argumento chamado `fruta` que deverá ser uma _String_.  
+
+De dentro da função retorne o argumento `fruta` dessa maneira:  
+
+```javascript
+return 'Um cliente acaba de efetuar a compra de ' + fruta;  
+```
+
+Dentro do parênteses do `console.log()`, chame a função `compra()` com `'bananas'` como argumento. 
