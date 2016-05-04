@@ -317,3 +317,41 @@ var quitanda = {
 ```
 
 Use o `console.log()` para imprimir o objeto `quitanda` no terminal. 
+
+##Exercício 15 - Manipulando Objetos
+
+Você pode acessar e manipular propriedades de _Objetos_ –– as chaves e valores de um objeto –– de uma maneira bem similar como fazemos com _Arrays_.   
+   
+Aqui está um exemplo:  
+
+```javascript
+var pizza = {  
+  sabor: 'mozzarella',  
+  pedacos: 8  
+}
+
+console.log(pizza['sabor']);
+```
+
+O código acima vai imprimir no console a _String_ `'mozzarella'`. Como alternativa você pode utilizar ponto para obter o mesmo resultado:  
+```javascript
+console.log(pizza['sabor']);
+console.log(pizza.sabor);
+```
+
+Ambas as linhas retornarão a _String_ `'mozzarella'`.
+
+###Desafio:  
+Use o `console.log()` para imprimir a propriedadde `funcionarios` do objeto `quitanda` no terminal.
+
+Defina uma variável chamada `quitanda` desta forma:  
+ 
+```javascript  
+var quitanda = {  
+  frutas: ['laranja', 'maçã', 'banana'],  
+  funcionamento: 'entre 8h e 18h',  
+  funcionarios: 4  
+}
+```
+
+Use o `console.log()` para imprimir o objeto `quitanda` no terminal.
