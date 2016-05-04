@@ -290,3 +290,30 @@ pets[i] = pets[i] + 's';
 ```
 
 Depois do loop, use o `console.log()` para imprimir a _Array_ 
+
+##Exercício 14 - Objetos
+
+_Objetos_  em JavaScript são listas de valores similares às _Arrays_, exceto que seus valores são identificados por chaves ao invés de números inteiros.  
+   
+Aqui está um exemplo:  
+
+```javascript
+var pizza = {  
+  sabor: 'mozzarella',  
+  pedacos: 8  
+}
+```
+   
+###Desafio:  
+   
+Defina uma variável chamada `quitanda` desta forma:  
+ 
+```javascript  
+var quitanda = {  
+  frutas: ['laranja', 'maçã', 'banana'],  
+  funcionamento: 'entre 8h e 18h',  
+  funcionarios: 4  
+}
+```
+
+Use o `console.log()` para imprimir o objeto `quitanda` no terminal. 
