@@ -149,9 +149,7 @@ O bloco else é opcional e contém o código que será executado caso a instruç
 
 ###Desafio:  
 
-Crie uma arquivo chamado if-statement.js.  
-
-No arquivo criado, declare uma variável chamada `fruta`.  
+No arquivo .js criado declare uma variável chamada `fruta`.  
 
 Faça a variável `fruta` referenciar o valor `laranja` ou qualquer outro nome de fruta com o tipo _String_.  
 
@@ -234,7 +232,7 @@ A função que você passa para o método .filter() será igual essa:
 
 ```javascript
 function numerosPares (numero) {  
-	return number % 2 === 0;  
+	return numero % 2 === 0;  
 }
 ```
 
@@ -268,3 +266,28 @@ console.log(pets.1);
 
 ###Desafio:  
 Use o console.log() para imprimir o segundo valor do _Array_ `frutas`
+
+##Exercício 13 - Varrendo Arrays com Loop
+
+É possível descobrir um tamanho de uma _Array_ com o método `length` da mesma maneira que usamos para descobrir o tamanho de uma _String_. Para este desafio usaremos um _Loop_ for para acessar e manipular uma lista de valores em uma _Array_.  
+
+Dentro de um loop `for` podemos utilizar a variável `i` dentro dos colchetes ao invés de usar diretamente um inteiro, pois a variável `i` do _Loop_ se refere a um número inteiro.  
+
+```javascript
+for (var i=0; i<pets.length; i++){
+	console.log(pets[i]+'s');
+}
+```
+
+Na operação acima estaríamos adicionando a letra __s__ a _String_ com o nome do bicho de estimação a cada _Loop_ no console. 
+
+
+###Desafio:  
+Crie um _Loop_ `for` que altera cada _String_ na _Array_ `frutas` para o plural.  
+
+Você usará uma instrução como esta dentro do loop:  
+```javascript
+pets[i] = pets[i] + 's';  
+```
+
+Depois do loop, use o console.log() para imprimir a _Array_ 
