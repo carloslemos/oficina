@@ -381,9 +381,7 @@ return 'Um cliente acaba de efetuar a compra de ' + fruta;
 Dentro do parênteses do `console.log()`, chame a função `compra()` com `'bananas'` como argumento. 
 
 ##Exercício 17 - Argumentos de Funções
-É possível fornecer mais de um argumento para uma função _Função_. Além disso argumentos podem ser qualquer possuir qualquer valor, seja ele uma _String_, um _Number_, uma _Array_, um _Objeto_ ou até mesmo uma outra _Função_.
-
-é um bloco com uma lista de parâmetros (que podem ser vazios) a qual normalmente se dá um nome. Uma função pode utilizar variáveis locais. Se você não criar uma declaração `return` ao final de uma função o valor `undefined` será retornado ao término da função (e isso não é um problema). Um exemplo:
+É possível fornecer mais de um argumento para uma  _Função_. Além disso argumentos podem ser possuir qualquer valor, seja ele uma _String_, um _Number_, uma _Array_, um _Objeto_ ou até mesmo uma outra _Função_. Um exemplo:
 
 ```javascript
 function velocidade(distancia, tempo) {
