@@ -367,20 +367,10 @@ function exemplo(x) {
 console.log(exemplo(5));
 ```
 
-###Desafio:
-
 No exemplo acima a função espera receber argumento/parâmetro de entrada _Number_ que será alocado em uma variável local `x` e que será multiplicado por 2 no valor de retorno/saída da função. 
 
-O código acima vai imprimir no console a _String_ `'mozzarella'`. Como alternativa você pode utilizar ponto para obter o mesmo resultado:  
-```javascript
-console.log(pizza['sabor']);
-console.log(pizza.sabor);
-```
-
-Ambas as linhas retornarão a _String_ `'mozzarella'`.
-
 ###Desafio:  
-Defina uma função chamada `compra` que recebe um argumento chamado `fruta` que deverá ser uma _String_.  
+Defina uma função chamada `compra` que receberá um argumento do tipo _String_ chamado `fruta`.  
 
 De dentro da função retorne o argumento `fruta` dessa maneira:  
 
