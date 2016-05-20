@@ -42,7 +42,7 @@ plano de aula para @s alun@s da ESPM
 ###20' - 30': apresentação [Mapa das Curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-torcidas-no-facebook/)
 
 * apresentar o [Fandom Maps dos NYT](http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html)
-* explicar o uso do D3js
+* explicar o uso do (D3js)[https://d3js.org/]
 * recebendo os dados do FB (falar sobre _JSON_ e _CSV_)
 * consultando especialistas
 * apurando seu mapa
