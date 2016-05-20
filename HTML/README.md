@@ -31,6 +31,6 @@ Criar uma página que contenha:
 3. um pequeno parágrafo sobre você. [Pode ser texto de marcação](http://www.lipsum.com/feed/html)
 4. um link para sua conta pessoal de twitter, linkedin ou snapchat
 
-Não se preocupe com a estilização dos elementos. Nós veremos isso a [seguir](https://github.com/carloslemos/oficina/tree/master/CSS).
+Não se preocupe com a estilização dos elementos. Veremos isso  [no conteúdo sobre CSS](https://github.com/carloslemos/oficina/tree/master/CSS).
 
 _Uma parte das definições foi retirada da [Wikipedia](https://en.wikipedia.org/wiki/HTML) sob [Creative Commons Atribuição CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)_
