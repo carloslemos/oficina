@@ -1,4 +1,4 @@
-#Oficina de Jornalismo & Programação
+#Hackeando Jornalismo + Criatividade
 Apesar de acreditar que [escrever bem ainda é uma boa tecnologia](https://www.washingtonpost.com/news/achenblog/wp/2015/10/29/good-writing-is-good-technology/), existe um mundo aí de possibilidades no processo de contar histórias e você não precisa ser o próximo Linus Torvalds para experimentar e brincar um pouco.
 
 ###Isso aqui é legal...
