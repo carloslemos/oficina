@@ -71,4 +71,4 @@ __15' - 30' estudos de caso em grupo: dissecando especiais multimídia__
 
 * Vamos dissecar o nosso jogo
 * Separando o que é estilo, o que é estrutura e o que é a parte dinâmica do jogo
-* Vamos cadar essa bagaça
+* Vamos codar essa bagaça
