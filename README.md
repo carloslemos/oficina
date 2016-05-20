@@ -7,6 +7,8 @@ Apesar de acreditar que [escrever bem ainda é uma boa tecnologia](https://www.w
 * O Globo [Você consegue escalar um time melhor que o Dream Team?](http://infograficos.oglobo.globo.com/rio-2016/voce-consegue-escalar-um-time-melhor-que-o-dream-team.html)
 * Guardian: [The dark side of Guardian comments](https://www.theguardian.com/technology/2016/apr/12/the-dark-side-of-guardian-comments)
 * Nexo: [Quem falou isso: Hegel ou Engels? Um quiz filosófico](https://www.nexojornal.com.br/interativo/2016/03/11/Quem-falou-isso-Hegel-ou-Engels-Um-quiz-filos%C3%B3fico)
+* Washignton Post: [The inside story of when Run‑DMC met Aerosmith and changed music forever](https://www.washingtonpost.com/graphics/lifestyle/walk-this-way/)
+* NY Times: [The Death of a Terrorist: A Turning Point?](http://www.nytimes.com/interactive/2011/05/03/us/20110503-osama-response.html)
 
 Bem, __eu__ acredito que sim. Na verdade, boa parte do trabalho de programar é seguir uma ideia e abordar os mínimos detalhes do processo. O que não se sabe, se descobre no processo. Não é por acaso que o nome da profissão do construtor de páginas web é webdesigner. Design e desenho são palavras com a mesma raíz da palavra desígnio, que de acordo com Michaelis quer dizer _1 Plano, projeto. 2 Intenção, propósito. 3 Destino_.
   
