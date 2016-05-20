@@ -1,74 +1,74 @@
 # Plano de aula
-Plano de aula para os alunas ESPM
+plano de aula para @s alun@s da ESPM
 
 ##1ª hora
-###15' - 30': Jogo você conhece o seu navegador?
+###15' - 30': jogo você conhece o seu navegador?
 
-###5': Apresentação da aula e do professor
+###5': apresentação da aula e do professor
 
-###10' - 15': Entendendo diferentes aspectos do seu navegador
+###10' - 15': entendendo diferentes aspectos do seu navegador
 
-* Elementos
-* Console
-* Source [fontes]
-* Network [rede - requisições]
-* Timeline [linha do tempo da página]
-* Profiles [perfis de funcionamento de JS]
-* Security [segurança]
-* Audits
+* elementos
+* console
+* source [fontes]
+* network [rede - requisições]
+* timeline [linha do tempo da página]
+* profiles [perfis de funcionamento de JS]
+* security [segurança]
+* audits
 
 
-###1' max por aluno: Apresentação dos alunos
+###2' max por aluno: apresentação d@s alun@s
 
-* Nome, de onde você é
-* Algo em que você faz bem
-* Algo que você tenha feito que você tem orgulho
+* nome e de onde veio
+* o que você faz bem
+* algo que você tenha feito que você tem orgulho
 
 ##2ª hora
-###30': Apresentação do GloboEsporte.com
+###30': apresentação do GloboEsporte.com
 
-* O que fazemos [backend, frontend + jornalismo]
-* O dia a dia
-* As pessoas do GE
-* Showcase materiais que tenho orgulho: Prêmios Malofiej
+* o que fazemos [backend, frontend + jornalismo]
+* o dia a dia
+* as pessoas do GE
+* showcase de materiais que tenho orgulho: Prêmios Malofiej
 
-###15' - 30' estudos de caso em grupo: dissecando especiais multimídia
+###15' - 30': dissecando especiais multimídia em grupo
 
-* Podem ser os casos no abre, ou outros
+* podem ser os estudos de caso no abre da aula, ou outros que desejarem
 
 `break`
 
-##3ª hora e 4ª hora
-###20' - 30': Apresentação [Mapa das Curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-torcidas-no-facebook/)
+##3ª e 4ª horas
+###20' - 30': apresentação [Mapa das Curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-torcidas-no-facebook/)
 
-* Apresentar o [Fandom Maps dos NYT](http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html)
-* Explicar o uso do D3
-* Recebendo os dados do FB (falar sobre _JSON_ e _CSV_)
-* Consultando especialistas
-* Apurando seu mapa
-* Qual o nosso lide visual, como encontramos uma história
-* Como a análise de dados da nossa audiência levou a determinadas escolhas
-* Escrevendo um [FAQ](http://globoesporte.globo.com/futebol/noticia/2015/09/como-foi-feito-o-mapa-de-curtidas.html)
+* apresentar o [Fandom Maps dos NYT](http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html)
+* explicar o uso do D3js
+* recebendo os dados do FB (falar sobre _JSON_ e _CSV_)
+* consultando especialistas
+* apurando seu mapa
+* qual o nosso lide visual, como encontramos uma história
+* como a análise de dados da nossa audiência levou a determinadas escolhas
+* escrevendo um [FAQ](http://globoesporte.globo.com/futebol/noticia/2015/09/como-foi-feito-o-mapa-de-curtidas.html) para a nossa história
 
-###15': Espaço para Dúvidas e perguntas
+###15': espaço para dúvidas e perguntas
 
-###30' - 45': Faça um NewsGame!  
+###30' - 45': faça um newsgame
 
-* Crie um jogo para __UM__ jogador só baseado em dados/fatos físico.  
+* crie um jogo para __UM__ jogador só baseado em dados/fatos físico.  
 
-###15': Apresentando o jogo para o grupo  
+###15': apresentando o jogo para o grupo  
 
-###15': Vamos jogar?  
+###15': vamos jogar?  
 
-* O que funciona no jogo do outro?
+* o que funciona no jogo do outro?
 * o que pode melhorar?
-* Qual é o melhor jogo?
+* qual é o melhor jogo?
 
 `almoço`
 
 ##período da tarde
-###4h: [Let the carnage beggin!](https://www.youtube.com/watch?v=I0Er3K9f0vw) _AKA_ como essa oficina começou a fazer o seu protótipo
+###4 horas com um `break` no meio: [Let the carnage beggin!](https://www.youtube.com/watch?v=I0Er3K9f0vw) _AKA_ fazendo o nosso protótipo do dia
 
-* Vamos dissecar o nosso jogo
-* Separando o que é estilo, o que é estrutura e o que é a parte dinâmica do jogo
-* Vamos codar essa bagaça
+* vamos dissecar o nosso jogo
+* separando o que é estilo, o que é estrutura e o que é a parte dinâmica do jogo
+* vamos codar essa bagaça
