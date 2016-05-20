@@ -20,7 +20,7 @@ Fornece informação sobre o documento que não aparece na página. Deem uma con
 * `<body>...<\body>`  
 O corpo da página. O conteúdo aqui inserido será visualizado no navegador
 
-Existem outros elementos comuns em boa parte dos htmls como __title, h1, img, p, a__, etc. E todo bloco pode possuir atributos específicos como __class, id, src, href__. Porque e como usamos cada um veremos logo a seguir.
+Existem outros elementos comuns em boa parte dos htmls como __title, h1, img, p, a__, etc. E todo bloco pode possuir atributos específicos como __class, id, src, href__. Explore diferentes páginas da web e tente enteder como funciona cada uma delas.
 
 #Construindo o seu 1º HTML
 
