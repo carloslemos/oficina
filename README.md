@@ -15,3 +15,5 @@ Bem, __eu__ acredito que sim. Na verdade, boa parte do trabalho de programar é 
 Essa oficina visa fornecer ferramentas fundamentais para que você crie protótipos de histórias interativas. Talvez fosse mais difícil programar antes do Google, mas hoje é mais fácil. Vai por mim.
 
 __baita™__ é uma marca registrada pelo [Craque Neto 10](https://twitter.com/10neto)!
+
+\*\*\* _WARNING: Spoilers Ahead_ \*\*\*
