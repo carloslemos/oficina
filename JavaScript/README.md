@@ -1,3 +1,7 @@
+#O que é JavaScript
+É uma linguagem de programação de alto-nível, dinâmica e interpretada. É usada essencialmente na manipulação do __DOM__ [a interação do código da página com o navegador].
+
+#Aprendendo a programar JS
 Para começar vamos criar um arquivo __.js__. Para efeito de organização iremos deixar esse arquivo na mesma pasta do __html__ da parte anterior. O nome desse arquivo pode ser __aula.js__, ou qualquer outro do seu gosto. Nos exemplos a seguir sempre irei me referir a este arquivo como __aula.js__.
 
 Dito isso vamos chamá-lo no nosso html com a seguinte tag:
@@ -396,3 +400,5 @@ console.log('A velocidade de Usain Bolt na última olimpíada é de aproximadame
 Crie uma função `troca` com 2 argumentos. A função deve retornar `'O cliente quer trocar ' + argumento1 + 'por' + argumento2`;
  
 Dentro do parênteses do `console.log()`, chame a função `troca()` com `'alho'` e `'bugalho'` como argumentos. 
+
+_Uma parte das definições foi retirada da [Wikipedia](https://en.wikipedia.org/wiki/CSS) sob [Creative Commons Atribuição CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)_. Os exercícios são modificações do curso da [NODESCHOOL](http://nodeschool.io/#workshoppers) sobre JavaScript
