@@ -22,7 +22,7 @@ Plano de aula para os alunas ESPM
 • Algo em que você faz bem
 • Algo que você tenha feito que você tem orgulho
 
-9 da manhã
+###2ª hora
 
 30': Apresentação do GloboEsporte.com
 • O que fazemos [backend, frontend + jornalismo]
@@ -30,4 +30,5 @@ Plano de aula para os alunas ESPM
 • As pessoas do GE
 • Showcase materiais que tenho orgulho: Prêmios Malofiej
 
-15' estudos de caso em grupo - dissecando especiais multimídia
+15' - 30' estudos de caso em grupo: dissecando especiais multimídia
+• Podem ser os casos 
