@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Protótipo Quiz das letrinha 0.0.1
+		</title>
+		<style>
+			h1{
+				font-family: Arial, sans-serif;
+				font-size: 48px;
+				color: black;
+				text-transform: uppercase;
+			}
+
+			h1 span{
+				border-bottom: 3px double black;
+			}
+
+			li{
+				display: inline-block;
+				background-color: orange;
+				padding: 30px 10px;
+				width: 60px;
+				text-align: center;
+				margin: 5px;
+			}
+
+			section{
+				display: inline-block;
+				width: 50%;
+				height: 400px;
+			}
+
+			.certo{
+				background-color: green;
+			}
+		</style>
+		<script src="http://especial.globoesporte.globo.com/vc_convoca_copa_2014/js/base.js"></script>
+	</head>
+	<body>
+		<h1>
+			<span>Quiz</span> das letrinhas
+		</h1>
+		<ul>
+			
+		</ul>
+		<section data-drop="partido">
+			<h2>Partido ou</h2>
+		</section><section data-drop="quimico">
+			<h2>Produto químico</h2>
+		</section>
+		<script>
+			var siglas = [
+				{sigla:'PTC', partido:true, significado:'Partido Trabalhista Cristão'},
+				{sigla:'PMB', partido:true, significado:'Partido da Mulher Brasileira'},
+				{sigla:'PVB', partido:false, significado:''},
+				{sigla:'PTU', partido:false, significado:''}
+			];
+			$.each(siglas, function(key,val){
+				$('ul').append('<li data-partido="'+val.partido+'">'+val.sigla+'</li>');
+				// console.log(val);
+			});
+
+			var elemento;
+
+			$('li').draggable({
+				start: function(){
+					elemento = $(this);
+				}
+			});
+			$('[data-drop]').droppable({
+				drop: function(event, ui) {
+					// console.log(elemento.attr('data-partido'))
+					// console.log($(this).attr('data-drop'))
+
+					if($(this).attr('data-drop') == 'partido' && elemento.attr('data-partido') == 'true'){
+						console.log('acertou');
+						elemento.addClass('certo');
+
+					} else if($(this).attr('data-drop') == 'quimico' && elemento.attr('data-partido') == 'false'){
+						console.log('certo, é produto químico')
+						elemento.addClass('certo');
+					} else {
+						elemento.removeClass('certo');
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
