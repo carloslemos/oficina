@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Futuro Certo</title>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<style type="text/css">
+		h1{
+			color: red;
+			font-style: italic;
+		}
+		body{
+			text-align: center;
+			font-family: sans-serif;
+			text-transform: uppercase;
+		}
+		h1 span{
+			border-bottom: 3px solid red;
+		}
+
+		p{
+			text-align: left;
+			width: 400px;
+			margin: 10px auto;
+		}
+
+		.escolha{
+			margin-top: 50px;
+			color: orange;
+			text-align: center;
+			font-size: 22px;
+			font-weight: bold;
+		}
+
+		.laranja{
+			color: orange;
+		}
+
+		.botao{
+			font-size: 22px;
+			margin: 0 10px;
+			cursor: pointer;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.botao:hover{
+			background-color: #DDD;
+		}
+
+		div + div{
+			margin-top: 40px;
+		}
+
+		.apagado{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Futuro<br>
+		<span>Certo</span>
+	</h1>
+	<h2>A história de F. na periferia</h2>
+
+	<div>
+		<p>F. é homem, nasceu em São Paulo e vive em São Miguel Paulista, na periferia.</p>
+		<p>É negro, mora com os pais e estuda em escola pública.</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:red;" escolha="escola">Escola</span>
+			<span class="laranja">ou</span>
+			<span class="botao" escolha="crime">Crime</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="escola">
+		<p>F. não está sozinho. A maioria de seus colegas é negra. E a maioria também estuda em escola pública.</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:purple;" escolha="Estudos">Estudos</span>
+			<span class="laranja">ou</span>
+			<span class="botao" style="color:green;" escolha="Trabalho">Trabalho</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="crime">
+		<p>F. decidiu não estudar e  passar a maior parte do tempo na rua.</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:green;"  escolha="Tráfico">Tráfico</span>
+			<span class="laranja">ou</span>
+			<span class="botao" style="color:blue;"  escolha="Roubos e furtos">Roubos e furtos</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Estudos">
+		<p>F. se dedica na escola e sonha em ser médico</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:green;" escolha="troca de tiros">troca de tiros</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Trabalho">
+		<p>Apesar de não se dedicar aos estudos, F. trabalha em projetos sociais na comunidade</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:green;" escolha="troca de tiros">troca de tiros</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Tráfico">
+		<p>F. vira aviãozinho do tráfico de drogas</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:pink;" escolha="Perseguição policial">Perseguição policial</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Roubos e furtos">
+		<p>F. passa a cometer pequenos furtos na comunidade</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:pink;" escolha="Perseguição policial">Perseguição policial</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="troca de tiros">
+		<p>Andando em sua comunidade, F. se vê no meio de uma troca de tiros</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:red;" escolha="Vá para a última página">Vá para a última parte</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Perseguição policial">
+		<p>A polícia encontra F. cometendo pequenos crimes. Começa a perseguí-lo e atirar nele.</p>
+		<div>
+			<p class="escolha">Escolha:</p>
+			<span class="botao" style="color:red;" escolha="Vá para a última página">Vá para a última parte</span>
+		</div>
+	</div>
+
+	<div class="apagado" resposta="Vá para a última página">
+		<h1>Morto!!!</h1>
+		<p>
+			F. acaba morto independente de suas escolhas
+			1 em cada 4 mortos por policiais em São Paulo tem entre 13 e 17 anos
+			2 em cada 3 vítimas são negras. A letalidade maior é na periferia
+			Ou seja, existe um racismo institucional
+		</p>
+	</div>
+	<script>
+		// $('body').html('ferrou');
+		// não era para acontecer. aqui em cima é só um teste
+
+		$('[escolha]').click(
+			function () {
+				var resposta = $(this).attr('escolha');
+				$('[resposta="'+resposta+'"]').show();
+				$(this).parent().find('span').hide();
+				$(this).show();
+				// alert(resposta);
+			}
+		);
+	</script>
+</body>
+</html>
