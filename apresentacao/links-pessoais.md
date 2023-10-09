@@ -1,7 +1,6 @@
 # Trajetória pessoal
 
 ## Estadão
-
 * [Geografia do voto](https://media.licdn.com/dms/image/sync/C5627AQEIvzWTl3Y_Qg/articleshare-shrink_480/0/1695737756258?e=1697457600&v=beta&t=WgBI4VHMIQxPYBLKM1LPjbsXGz3pTRTnPiZ1pkvTmho)
 * [Onde atuam os 736 jogadores da Copa 2010](https://ciencianamidia.files.wordpress.com/2010/07/copa-2010.jpg)
 * [A população e as capitais dos Estados](https://img.estadao.com.br/fotos/crop/1200x1200/resources/jpg/9/7/1414781766879.jpg)
@@ -11,9 +10,64 @@
 ## ge.globo
 
 ### 2012
-
 * [Libertados](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/0Lh4S2SNADIJgV1Gdg4y.jpg)
-* 
+
+### 2013
+* [Especial Maracanã]([Remake 2021]())
+
+### 2014
+* [O público nos estádios do Brasil](http://app.globoesporte.globo.com/futebol/publico-no-brasil/index.html)
+* [Cidade da Copa](http://app.globoesporte.globo.com/copa-do-mundo/cidade-da-copa/index.html)
+* [A casa dos loucos]([http://app.globoesporte.globo.com/futebol/times/corinthians/a-casa-dos-loucos/index.html](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/rrbLVWa6O7SKaRbSlRy0.jpg))
+* [Como o Twitter reagiu a Brasil e Chile](http://app.globoesporte.globo.com/copa-do-mundo/como-o-twitter-reagiu-a-brasil-chile/index.html)
+
+### 2015
+* []()
+* []()
+* []()
+* []()
+
+### 2016
+* []()
+
+### 2017
+* []()
+* []()
+* []()
+* []()
+* []()
+
+### 2018
+* []()
+
+### 2019
+* []()
+* []()
+* []()
+* []()
+
+### 2020
+* []()
+* []()
+* []()
+* []()
+
+### 2021
+* []()
+* []()
+* []()
+* []()
+
+### 2022
+* []()
+* []()
+* []()
+
+### 2023
+* []()
+* []()
+* []()
+* []()
 
 
 #### Extra: [Portifolio ge](https://interativos.ge.globo.com/globoesporte/materia/portfolio-de-infograficos-e-especiais-interativos-do-globoesportecom.ghtml)
