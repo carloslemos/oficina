@@ -34,6 +34,7 @@
 
 ### 2017
 * [Toque das luvas](http://app.sportv.globo.com/combate/may-mac/toque-das-luvas/index.html)
+* [Mapa das curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-curtidas-2017/#!)
 
 ### 2018
 * [Toda bola é quadrada](https://interativos.ge.globo.com/futebol/copa-do-mundo/especial/toda-bola-e-quadrada)
