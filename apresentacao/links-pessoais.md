@@ -25,6 +25,7 @@
 * [As faltas de Ceni em 7 passos](http://app.globoesporte.globo.com/futebol/times/sao-paulo/as-faltas-de-ceni-em-7-passos/index.html)
 * [Prólogos](http://app.globoesporte.globo.com/futebol/times/sao-paulo/prologos/index.html)
 * [O caminhho da Cruz](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/LM2EHohuFoLrSqoHtGTs.jpg)
+* [Mapa das curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-torcidas-no-facebook/)
 
 ### 2016
 * [100 anos da Vila Belmiro](http://app.globoesporte.globo.com/futebol/times/santos/100-anos-vila-belmiro/index.html)
@@ -34,7 +35,7 @@
 
 ### 2017
 * [Toque das luvas](http://app.sportv.globo.com/combate/may-mac/toque-das-luvas/index.html)
-* [Mapa das curtidas](http://app.globoesporte.globo.com/futebol/mapa-das-curtidas-2017/#!)
+* [Mapa das curtidas 2017](http://app.globoesporte.globo.com/futebol/mapa-das-curtidas-2017/#!)
 
 ### 2018
 * [Toda bola é quadrada](https://interativos.ge.globo.com/futebol/copa-do-mundo/especial/toda-bola-e-quadrada)
