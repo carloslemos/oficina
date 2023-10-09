@@ -13,61 +13,48 @@
 * [Libertados](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/0Lh4S2SNADIJgV1Gdg4y.jpg)
 
 ### 2013
-* [Especial Maracanã]([Remake 2021]())
+* [Especial Maracanã]([Remake 2020](https://interativos.ge.globo.com/futebol/especial/maracana-70-anos))
 
 ### 2014
 * [O público nos estádios do Brasil](http://app.globoesporte.globo.com/futebol/publico-no-brasil/index.html)
 * [Cidade da Copa](http://app.globoesporte.globo.com/copa-do-mundo/cidade-da-copa/index.html)
-* [A casa dos loucos]([http://app.globoesporte.globo.com/futebol/times/corinthians/a-casa-dos-loucos/index.html](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/rrbLVWa6O7SKaRbSlRy0.jpg))
+* [A casa dos loucos](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/rrbLVWa6O7SKaRbSlRy0.jpg)
 * [Como o Twitter reagiu a Brasil e Chile](http://app.globoesporte.globo.com/copa-do-mundo/como-o-twitter-reagiu-a-brasil-chile/index.html)
 
 ### 2015
-* []()
-* []()
-* []()
-* []()
+* [As faltas de Ceni em 7 passos](http://app.globoesporte.globo.com/futebol/times/sao-paulo/as-faltas-de-ceni-em-7-passos/index.html)
+* [Prólogos](http://app.globoesporte.globo.com/futebol/times/sao-paulo/prologos/index.html)
+* [O caminhho da Cruz](https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2020/5/LM2EHohuFoLrSqoHtGTs.jpg)
 
 ### 2016
-* []()
+* [100 anos da Vila Belmiro](http://app.globoesporte.globo.com/futebol/times/santos/100-anos-vila-belmiro/index.html)
+* [Tocha olímpica Rio 2016](http://app.globoesporte.globo.com/olimpiadas/tocha-olimpica-rio-2016/index.html)
+* [Biotipo dos Atletas](http://app.globoesporte.globo.com/olimpiadas/biotipos-dos-atletas/index.html)
+* [Velas ao ventos](http://app.globoesporte.globo.com/olimpiadas/vela/index.html)
 
 ### 2017
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Toque das luvas](http://app.sportv.globo.com/combate/may-mac/toque-das-luvas/index.html)
 
 ### 2018
-* []()
+* [Toda bola é quadrada](https://interativos.ge.globo.com/futebol/copa-do-mundo/especial/toda-bola-e-quadrada)
+* [Brasileiros na F1](https://interativos.ge.globo.com/motor/formula-1/especial/participacoes-brasileiras-na-f1)
 
 ### 2019
-* []()
-* []()
-* []()
-* []()
-
-### 2020
-* []()
-* []()
-* []()
-* []()
+* [Poses para a história](https://interativos.ge.globo.com/futebol/materia/poses-para-a-historia)
+* [Simone Biles](https://interativos.ge.globo.com/ginastica-artistica/especial/simone-biles)
 
 ### 2021
-* []()
-* []()
-* []()
-* []()
+* [Amazônia, e eu com isso?](https://especiais.g1.globo.com/g1-15-anos/2021/amazonia-meio-ambiente-devastacao/)
+* [Mapas Covid](https://especiais.g1.globo.com/bemestar/vacina/2021/mapa-brasil-vacina-covid/)
+* [Marilíateca](https://especiais.g1.globo.com/pop-arte/musica/2021/mariliateca/)
 
 ### 2022
-* []()
-* []()
-* []()
+* [Camisas mais bonitas de todas as Copas](https://interativos.ge.globo.com/futebol/copa-do-mundo/especial/top-20-camisas-mais-bonitas-de-todas-as-copas-do-mundo)
+* [A bola mais tecnológica das Copas](https://interativos.ge.globo.com/futebol/copa-do-mundo/materia/a-bola-mais-tecnologica-das-copas)
+
 
 ### 2023
-* []()
-* []()
-* []()
-* []()
+* [Guia da Copa do Mundo 2023](https://interativos.ge.globo.com/futebol/copa-do-mundo-feminina/especial/guia-da-copa-do-mundo-feminina-2023))
 
 
 #### Extra: [Portifolio ge](https://interativos.ge.globo.com/globoesporte/materia/portfolio-de-infograficos-e-especiais-interativos-do-globoesportecom.ghtml)
